@@ -1,0 +1,190 @@
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+/*Menu mini*/
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #fed136;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fec503;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fed136;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+/*Color objet del menu*/
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #fed136;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fed136;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #fec503;
+}
+/*Menu mini*/
+
+/* Menu transparente*/
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+/* Cierre Menu transparente*/
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 50px;
+    }
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+section {
+    padding: 100px 0;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media(min-width:768px) {
+    section {
+        padding: 30px 0;
+    }
+}
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 2px solid #fff;
+}
+
+.team-member-img img {
+    margin: 0 auto;
+   
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
